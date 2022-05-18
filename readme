@@ -1,1 +1,3 @@
-T
+The 'build dictionary' folder includes the source code for the edge pattern dictionaries and micro-pore pattern dictionary building.
+
+The 'rec_process' folder includes a DEMO and the source code of main programs.
