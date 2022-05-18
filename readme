@@ -5,7 +5,8 @@ Copyright (c) 2022 Pengcheng Yan
 Program language: C++
 
 Software required: Window (64 bit), Visual Studio 2019, OpenCV 3.4.9
--------------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------
 Read the readme.txt before running the code.
 
 1. The 'build dictionary' folder includes the source code for the edge pattern dictionaries and micro-pore pattern dictionary building.
@@ -22,8 +23,7 @@ Read the readme.txt before running the code.
    2. Dictionaries (eg: EdgeDicLib_0.txt, EdgeDicLib_1.txt, SmallPoreLib.txt) should be stored in './rec_process/DictionaryLib/...'.
 
 3. The main.cpp includes edge reconstruction and micro-pore reconstruction. Parameters can be debugged in main.cpp.
-
--------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------
 
 Annotations:
 
