@@ -8,7 +8,8 @@ Software required: Window (64 bit), Visual Studio 2019, OpenCV 3.4.9
 
 The DEMO.exe is an example of a multiscale reconstruction that can be run straight away.
 
-T
+The main.cpp includes two parts: edge reconstruction and micropore reconstruction. Parameters can be debugged in main.cpp.
+
 
 
 
