@@ -5,11 +5,35 @@ Copyright (c) 2022 Pengcheng Yan
 Program language: C++
 
 Software required: Window (64 bit), Visual Studio 2019, OpenCV 3.4.9
+-------------------------------------------------------------------------------------------------------
+Read the readme.txt before running the code.
 
-The 'build dictionary' folder includes the source code for the edge pattern dictionaries and micro-pore pattern dictionary building.
+1. The 'build dictionary' folder includes the source code for the edge pattern dictionaries and micro-pore pattern dictionary building.
 
-The 'rec_process' folder includes a DEMO and the source code of main programs:
-  The DEMO.exe is an example of a multiscale reconstruction that can be run straight away. 
+2. The 'rec_process' folder includes a DEMO and the source code of main programs: The DEMO.exe is an example of a multiscale reconstruction that can be run straight away. 
+  Unzip: 
+    Opencv_world349.zip --> Opencv_world349.dll
+    EdgeDicLib_0.part01.zip, EdgeDicLib_0.part02.zip --> EdgeDicLib_0.txt :
+    EdgeDicLib_1.zip --> EdgeDicLib_1.txt
+  before running DEMO or the main program.
+  
+  Note:
+   1. Opencv_world349.dll should be stored in './rec_process/...'
+   2. Dictionaries (eg: EdgeDicLib_0.txt, EdgeDicLib_1.txt, SmallPoreLib.txt) should be stored in './rec_process/DictionaryLib/...'.
 
-The main.cpp includes two parts: edge reconstruction and micropore reconstruction. Parameters can be debugged in main.cpp.
+3. The main.cpp includes edge reconstruction and micro-pore reconstruction. Parameters can be debugged in main.cpp.
+
+-------------------------------------------------------------------------------------------------------
+
+Annotations:
+
+The naming of edge pattern dictionaries follows the following approach:
+eg: 
+  EdgeDicLib_0.txt: the lowsacle edge pattern dictionary
+  EdgeDicLib_1.txt: the highscale edge pattern dictionary
+  ...
+
+
+ 
+
 
